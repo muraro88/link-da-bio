@@ -24,7 +24,7 @@ const App = () => {
 
           {/* Seção Hero com a imagem, fade e texto sobreposto. */}
           <div className="relative h-72 text-center">
-            <img className="absolute top-0 left-0 w-full h-full object-cover"
+            <img className="absolute top-0 left-0 w-full h-full object-cover object-top"
               src={heroImage}
               alt="[Imagem de um médico sorrindo em um ambiente de consultório]" 
               onError={(e) => { 
