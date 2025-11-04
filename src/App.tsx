@@ -40,13 +40,13 @@ const App = () => {
             {/* Container para o texto do hero */}
             <div className="absolute bottom-0 left-0 w-full p-6 hero-text">
                 <h1 className="text-4xl font-bold text-white mb-1">Dra. Sonia Monteiro</h1>
-                <h2 className="text-2xl font-semibold text-white">Nutrologia em Natal - RN</h2>
             </div>
           </div>
         
           {/* Conteúdo principal abaixo do hero (descrição e botões) */}
           <div className="p-8 text-center">
               <p className="text-gray-500 leading-relaxed mb-8 -mt-4">
+                <h2 className="text-2xl font-semibold text-white">Nutrologia em Natal - RN</h2>
                 <h3>CRM RN - RN: 5569 | Clínica Médica RQE: 2364</h3>
               </p>
 
