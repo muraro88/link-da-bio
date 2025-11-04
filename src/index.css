@@ -62,7 +62,7 @@ h1 {
 }
 
 .hero-fade {
-  background: linear-gradient(to top, rgb(243 244 246 / 1) 20%, rgb(243 244 246 / 0) 100%);
+  background: linear-gradient(to top, rgb(243 244 246 / 1) 5%, rgb(243 244 246 / 0) 70%);
 }
 
 .hero-text h1,
