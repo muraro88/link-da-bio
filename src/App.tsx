@@ -40,7 +40,7 @@ const App = () => {
             <div className="absolute bottom-0 left-0 w-full h-[60%] hero-fade"></div>
             {/* Container para o texto do hero */}
             <div className="absolute bottom-0 left-0 w-full p-6 hero-text">
-                <h1 className="text-4xl font-bold text-white mb-1">Dra. Sonia Monteiro</h1>
+                <h1 className="text-3xl md:text-4xl font-bold text-white mb-1">Dra. Sonia Monteiro</h1>
             </div>
           </div>
         
