@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import heroImage from './assets/dra-sonia-moneiro-nutrióloga-em-natal-rn.webp';
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,7 +25,7 @@ const App = () => {
           {/* Seção Hero com a imagem, fade e texto sobreposto. */}
           <div className="relative h-72 text-center">
             <img className="absolute top-0 left-0 w-full h-full object-cover"
-              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop"
+              src={heroImage}
               alt="[Imagem de um médico sorrindo em um ambiente de consultório]" 
               onError={(e) => { 
                 // Corrigido: Usando e.currentTarget para ser compatível com TypeScript
