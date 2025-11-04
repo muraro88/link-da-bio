@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import heroImage from '.src/assets/dra-sonia-moneiro-nutrióloga-em-natal-rn.webp';
+import heroImage from './assets/dra-sonia-moneiro-nutrióloga-em-natal-rn.webp';
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
