@@ -46,7 +46,7 @@ const App = () => {
           {/* Conteúdo principal abaixo do hero (descrição e botões) */}
           <div className="p-8 text-center">
               <p className="text-gray-500 leading-relaxed mb-8 -mt-4">
-                <h2 className="text-2xl font-semibold text-white">Nutrologia em Natal - RN</h2>
+                <h2 className="text-2xl font-semibold text-black">Nutrologia em Natal - RN</h2>
                 <h3>CRM RN - RN: 5569 | Clínica Médica RQE: 2364</h3>
               </p>
 
