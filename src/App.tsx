@@ -35,7 +35,7 @@ const App = () => {
               }}
             />
             {/* Sobreposição escura para aumentar o contraste do texto sobre a imagem */}
-            <div className="absolute inset-0 bg-black opacity-40"></div>
+            <div className="absolute inset-0 bg-black opacity-20"></div>
             {/* Camada para o efeito de fade */}
             <div className="absolute bottom-0 left-0 w-full h-[60%] hero-fade"></div>
             {/* Container para o texto do hero */}
