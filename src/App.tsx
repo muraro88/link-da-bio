@@ -133,16 +133,16 @@ const App = () => {
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
             </button>
 
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Agendar Consulta</h3>
-            <p className="text-gray-600 mb-4">As consultas são apenas Particulares:</p>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Agendamento Exclusivo</h3>
+            <p className="text-gray-600 mb-4">A Dra. Sonia atende exclusivamente pacientes na modalidade particular, oferecendo um acompanhamento personalizado e integral.</p>
 
             <label className="flex items-center gap-3 mb-4">
               <input type="checkbox" checked={onlyPrivate} onChange={(e) => setOnlyPrivate(e.target.checked)} className="h-4 w-4" />
-              <span className="text-gray-800">Quero Agendar</span>
+              <span className="text-gray-800">Estou ciente e desejo solicitar o agendamento particular.</span>
             </label>
 
             {onlyPrivate && (
-              <p className="text-sm text-gray-500 mb-4">Estou ciente e desejo solicitar o agendamento particular.</p>
+              <p className="text-sm text-gray-500 mb-4">Clique no botão Prosseguir para chamar no Whatsapp.</p>
             )}
 
             <div className="flex gap-3">
