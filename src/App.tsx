@@ -134,15 +134,15 @@ const App = () => {
             </button>
 
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Agendar Consulta</h3>
-            <p className="text-gray-600 mb-4">Selecione se deseja indicar apenas consultas particulares:</p>
+            <p className="text-gray-600 mb-4">As consultas são apenas Particulares:</p>
 
             <label className="flex items-center gap-3 mb-4">
               <input type="checkbox" checked={onlyPrivate} onChange={(e) => setOnlyPrivate(e.target.checked)} className="h-4 w-4" />
-              <span className="text-gray-800">Dizer Apenas Consultas Particulares</span>
+              <span className="text-gray-800">Quero Agendar</span>
             </label>
 
             {onlyPrivate && (
-              <p className="text-sm text-gray-500 mb-4">A opção "Apenas Consultas Particulares" está selecionada.</p>
+              <p className="text-sm text-gray-500 mb-4">Estou ciente e desejo solicitar o agendamento particular.</p>
             )}
 
             <div className="flex gap-3">
