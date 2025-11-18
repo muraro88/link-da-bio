@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite' // Agora a variável será usada!
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    react()
+    react(),
     tailwindcss(), // <--- ADICIONE ESTA LINHA!
   ],
 })
