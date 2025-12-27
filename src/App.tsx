@@ -64,6 +64,13 @@ const App = () => {
                   <span>Agendar Consulta</span>
                 </button>
 
+                {/* Link para o Curso Slim Medicine. */}
+                <a href="https://curos-slim-medicine.lovable.app/" target="_blank" rel="noopener noreferrer"
+                  className="link-button-animation relative block bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded-xl w-full flex items-center justify-center space-x-3 text-lg hover:bg-gray-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                  <span>Curso Slim Medicine</span>
+                </a>
+
                 {/* Link para o Doctoralia. */}
                 <a href="https://www.doctoralia.com.br/sonia-monteiro/nutrologo-especialista-em-clinica-medica/natal" target="_blank" rel="noopener noreferrer"
                   className="link-button-animation relative block bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded-xl w-full flex items-center justify-center space-x-3 text-lg hover:bg-gray-300">
@@ -90,13 +97,6 @@ const App = () => {
                   className="link-button-animation relative block bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded-xl w-full flex items-center justify-center space-x-3 text-lg hover:bg-gray-300">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
                   <span>Acesse meu Website</span>
-                </a>
-
-                {/* Link para o Curso Slim Medicine. */}
-                <a href="https://curos-slim-medicine.lovable.app/" target="_blank" rel="noopener noreferrer"
-                  className="link-button-animation relative block bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded-xl w-full flex items-center justify-center space-x-3 text-lg hover:bg-gray-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                  <span>Curso Slim Medicine</span>
                 </a>
               </div>
           </div>
