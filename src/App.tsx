@@ -65,7 +65,7 @@ const App = () => {
                 </button>
 
                 {/* Link para o Curso Slim Medicine. */}
-                <a href="https://curos-slim-medicine.lovable.app/" target="_blank" rel="noopener noreferrer"
+                <a href="https://curso.slimmedicine.com.br/" target="_blank" rel="noopener noreferrer"
                   className="link-button-animation relative block bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded-xl w-full flex items-center justify-center space-x-3 text-lg hover:bg-gray-300">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                   <span>Curso Slim Medicine</span>
